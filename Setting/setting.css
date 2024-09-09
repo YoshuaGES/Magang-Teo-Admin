@@ -98,8 +98,7 @@ a:hover {
 .card {
   background-color: rgb(240, 240, 240);
   margin: 40px;
-  height: 40%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 41%;
   border-style: solid;
   border-width: 0.5px;
   border-color: #dbdbdb;
@@ -133,9 +132,6 @@ a:hover {
   padding: 20px;
   background-color: rgb(255, 255, 255);
   height: 35%;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: #dbdbdb;
 }
 
 .Pinput {
@@ -157,13 +153,34 @@ a:hover {
 }
 
 .btn-update {
-    padding: 10px 20px;
-    background-color: #0050a5;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 600;
+  padding: 10px 20px;
+  background-color: #0050a5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+
+.buatButton {
+  padding-right: 30px;
+  padding-top: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
     font-size: 12px;
+    color: #888;
     font-family: "Poppins";
+}
+
+footer .company-name {
+    color: #007bff;
+    font-weight: bold;
 }
