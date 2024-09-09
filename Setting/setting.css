@@ -127,7 +127,7 @@ a:hover {
 
 .child2 {
   display: flex;
-  width: auto;
+  justify-content: center;
   padding: 20px;
   gap: 20px;
   background-color: white;
@@ -159,7 +159,7 @@ a:hover {
 .buatButton {
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 20px;
 }
 
 .btn-update {
