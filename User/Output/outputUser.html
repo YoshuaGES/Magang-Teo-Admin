@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Inventory</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="outputUser.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <p>Logistik</p>
+        </div>
+        <div class="navbar">
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    desktop_windows
+                </span>
+                <a href="#">Input Out Logistik</a>
+            </div>
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    desktop_windows
+                </span>
+                <a href="#">Input In Logistik</a>
+            </div>
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    finance
+                </span>
+                <a href="#">Laporan Out Logistik</a>
+            </div>
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    finance
+                </span>
+                <a href="#">Laporan In Logistik</a>
+            </div>
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    package_2
+                </span>
+                <a href="#">Stok IT</a>
+            </div>
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    shopping_bag
+                </span>
+                <a href="#">Stok Logistik</a>
+            </div>
+            <div class="nav">
+                <span class="material-symbols-outlined">
+                    finance
+                </span>
+                <a href="#">Laporan IT</a>
+            </div>
+            <div class="nav">
+                <a href="#">Setting</a>
+            </div>
+            <div class="nav">
+                <a href="#">Keluar</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="leftContent">
+            <div class="card">
+                <div class="cardHeader">
+                    <div class="cardTitle">
+                        <span class="material-symbols-outlined" style="font-size: 15px;">
+                            description
+                        </span>
+                        <p>Out Logistik</p>
+                    </div>
+                </div>
+                <div class="cardContent">
+                    <div class="cardInput">
+                        <label for="nota">No. Nota :</label>
+                        <input class="inputLeft" type="text">
+                    </div>
+                    <div class="cardInput">
+                        <label for="tanggal">Tanggal :</label>
+                        <input class="inputLeft" type="text">
+                    </div>
+                    <div class="cardInput">
+                        <label for="it">IT :</label>
+                        <input class="inputLeft" type="text">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="cardHeader">
+                    <div class="cardTitle">
+                        <span class="material-symbols-outlined" style="font-size: 15px;">
+                            person
+                        </span>
+                        <p>Informasi User</p>
+                    </div>
+                    <a href="#">Tambah Baru ?</a>
+                </div>
+                <div class="cardContent">
+                    <div class="cardInput">
+                        <label for="namaUser">Nama User :</label>
+                        <input class="inputLeft" type="text">
+                    </div>
+                    <div class="cardInput">
+                        <label for="telepon">Telepon :</label>
+                        <input class="inputLeft" type="text">
+                    </div>
+                    <div class="cardInput">
+                        <label for="NIK">NIK :</label>
+                        <input class="inputLeft" type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightContent">
+            <div class="rightTop">
+                <div class="rightInput">
+                    <label for="kodeProduk">Kode Produk</label>
+                    <input id="kodeProduk" type="text">
+                </div>
+                <div class="rightInput">
+                    <label for="warnaToner">Warna Toner</label>
+                    <input id="warnaToner" type="text">
+                </div>
+                <div class="rightInput">
+                    <label for="harga">Harga</label>
+                    <input id="harga" type="number">
+                </div>
+                <div class="rightInput">
+                    <label for="stock">Stock</label>
+                    <input id="stock" type="number">
+                </div>
+                <div class="rightInput">
+                    <label for="qty">Qty</label>
+                    <input id="qty" type="number">
+                </div>
+                <div class="rightInput">
+                    <label for="subtotal">Subtotal</label>
+                    <div class="subtotal-container">
+                        <input type="text" id="subtotal">
+                        <button id="reset-btn">
+                            <span class="material-symbols-outlined">
+                                restore_from_trash
+                            </span> Reset
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabel">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Tipe Toner</th>
+                            <th>Warna Toner</th>
+                            <th>Harga</th>
+                            <th>Qty</th>
+                            <th>Subtotal</th>
+                            <th>Opsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="7" class="empty-message">No data available in table</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="totalHarga">
+                <p>Rp.0</p>
+            </div>
+
+            <div class="rightBot">
+                <div class="catatan">
+                    <textarea id="catatan" name="catatan" rows="4" cols="50" placeholder="Catatan Transaksi"></textarea>
+                </div>
+                <div class="btn">
+                    <button id="cetak">
+                        <span class="material-symbols-outlined">
+                            print
+                        </span> Cetak
+                    </button>
+                    <button id="reset">
+                        <span class="material-symbols-outlined">
+                            restore_from_trash
+                        </span> Reset
+                    </button>
+                    <button id="simpan">
+                        <span class="material-symbols-outlined">
+                            file_save
+                        </span> Simpan
+                    </button>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="copyright">
+            Copyright © 2023 <a href="#">IT NET.</a> All Right Reserved
+    </div>
+    
+</body>
+
+</html>
