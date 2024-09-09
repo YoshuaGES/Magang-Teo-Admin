@@ -3,13 +3,13 @@ body {
 }
 
 .container {
-  height: 100vh;
   background-color: white;
+  min-height: 100vh;
 }
 
 .bg {
   padding-bottom: 3px;
-  background-color: rgb(255, 185, 94);
+  background-color: rgb(255, 208, 0);
   height: auto;
   max-width: 100%;
   width: auto;
@@ -100,9 +100,7 @@ a:hover {
   background-color: rgb(240, 240, 240);
   margin: 40px;
   height: 41%;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: #dbdbdb;
+  border: 0.5px solid #dbdbdb;
 }
 
 .child1 {
@@ -128,11 +126,16 @@ a:hover {
 }
 
 .child2 {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  width: auto;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
-  height: 35%;
+  gap: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.input {
+  width: 100%;
 }
 
 .Pinput {
@@ -154,11 +157,9 @@ a:hover {
 }
 
 .buatButton {
-  padding-right: 30px;
-  padding-top: 5px;
-  margin: 5px;
   display: flex;
   justify-content: flex-end;
+  padding: 10px;
 }
 
 .btn-update {
@@ -188,4 +189,68 @@ footer {
 footer .company-name {
   color: #007bff;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iconInven {
+    width: 30px;
+  }
+
+  .iconReport {
+    width: 20px;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .child1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .child2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .iconInven {
+    width: 30px;
+  }
+
+  .iconReport {
+    width: 20px;
+  }
+
+  .iconSetting {
+    width: 15px;
+  }
+
+  .Psetting {
+    font-size: medium;
+  }
+
+  .Pinput {
+    font-size: 12px;
+  }
+
+  .inputType {
+    padding: 6px;
+  }
+
+  .btn-update {
+    padding: 8px 16px;
+    font-size: 10px;
+  }
 }
