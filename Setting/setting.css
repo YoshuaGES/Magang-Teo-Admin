@@ -152,6 +152,14 @@ a:hover {
   background-color: #d3d3d3;
 }
 
+.buatButton {
+  padding-right: 30px;
+  padding-top: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .btn-update {
   padding: 10px 20px;
   background-color: #0050a5;
@@ -164,23 +172,19 @@ a:hover {
   font-family: "Poppins";
 }
 
-.buatButton {
-  padding-right: 30px;
-  padding-top: 5px;
-  margin: 5px;
-  display: flex;
-  justify-content: flex-end;
+.btn-update:hover {
+  background-color: aqua;
 }
 
 footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-    color: #888;
-    font-family: "Poppins";
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+  font-family: "Poppins";
 }
 
 footer .company-name {
-    color: #007bff;
-    font-weight: bold;
+  color: #007bff;
+  font-weight: bold;
 }
