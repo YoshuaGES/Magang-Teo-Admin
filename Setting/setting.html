@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT Inventory</title>
     <link rel="icon" href="/Assets/Icon Title.png" type="image/png" />
     <link rel="stylesheet" href="setting.css" />
@@ -12,10 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="bg">
+      <div class="bg">
         <div class="navbar">
           <div class="logo">
             <img
@@ -54,10 +54,12 @@
               <a href="/Laporan Toner/laporanToner.html">Laporan Toner</a>
             </div>
             <div class="bar">
-              <a href="">Input Data Toner</a>
+              <a href="/Input Data Toner/inputDataToner.html"
+                >Input Data Toner</a
+              >
             </div>
             <div class="bar">
-              <a href="">Stok Toner</a>
+              <a href="/Stok Toner/stokToner.html">Stok Toner</a>
             </div>
             <div class="bar">
               <a href="/Setting/setting.html">Setting</a>
@@ -68,6 +70,31 @@
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="child1">
+          <div class="iconSet">
+            <img
+              src="/Assets/IconSetting.png"
+              alt="Icon Setting"
+              class="iconSetting"
+            />
+          </div>
+          <div class="headSetting">
+            <p class="Psetting">Account Settings</p>
+          </div>
+        </div>
+        <div class="child2">
+          <div class="input">
+            <label class="Pinput">Username</p>
+            <input type="text" value="" class="inputType" placeholder="username"/>
+          </div>
+          <div class="input">
+            <label class="Pinput">Password</p>
+            <input type="password" value="" class="inputType" placeholder="password"/>
+          </div>
+        </div>
+        <button type="submit" class="btn-update">Update</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
