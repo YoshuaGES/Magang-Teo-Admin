@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    border-bottom: solid 5px rgb(255 193 7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 80%;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+}
+
+.logo {
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.nav {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #757575;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #bbbbbb;
+    font-size: 9px;
+    font-weight: bolder;
+}
+
+.card {
+    width: 70%;
+    margin-top: 30px;
+    border: solid 1px #ced4da;
+    border-radius: 5px;
+}
+
+.cardHeader {
+    background-color: rgb(240, 239, 239);
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: solid 1px #ced4da;
+}
+
+.btnLaporan {
+    padding: 20px;
+}
+
+#show {
+    border: solid 1px #ced4da;
+}
+
+#search {
+    width: 150px;
+    border: solid 1px #ced4da;
+}
+
+.cardContent {
+    align-content: center;
+    width: 95%;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.cardParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardParent input {
+    width: 35px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+button {
+    text-align: start;
+    background-color: white;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #ced4da;
+    color: #0099ff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th,
+td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+td {
+    background-color: rgb(248, 248, 248);
+}
+
+td button {
+    background-image: linear-gradient(rgb(0, 132, 255), blue);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 85px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+td button:hover {
+    background-image: linear-gradient(rgb(0, 132, 255), rgb(0, 132, 255));
+}
+
+button span.material-symbols-outlined {
+    font-size: 17px;
+}
+
+.tableFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.pagination a {
+    color: #333;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: #0099ff;
+    color: white;
+}
+
+.copyright {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.copyright a {
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
