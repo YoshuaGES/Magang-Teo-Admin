@@ -22,7 +22,6 @@ header {
     height: 70px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
 }
 
 .logo {
@@ -52,7 +51,7 @@ header {
 
 .leftContent {
     padding: 20px;
-    width: 16%;
+    width: 20%;
     display: flex;
     flex-direction: column;
 }
@@ -111,7 +110,7 @@ header {
 
 .rightContent {
     margin-top: 10px;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .rightTop {
@@ -309,4 +308,49 @@ textarea::placeholder {
     text-decoration: none;
     color: rgb(0, 132, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .navbar {
+        width: 100%;
+    }
+    .nav {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .leftContent, .rightContent {
+        width: 100%;
+    }
+    .rightTop {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rightInput {
+        width: 100%;
+    }
+    .cardInput, .inputLeft {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar, .rightContent {
+        padding: 10px;
+    }
+    .nav {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        border-right: none;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+    .rightBot {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
