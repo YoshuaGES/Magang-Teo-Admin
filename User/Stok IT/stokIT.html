@@ -7,7 +7,7 @@
     <title>IT Inventory</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="laporanOut.css">
+    <link rel="stylesheet" href="stokIT.css">
 </head>
 
 <body>
@@ -43,11 +43,11 @@
                 </span>
                 <a href="../Laporan In/laporanIn.html"">Laporan In Logistik</a>
             </div>
-            <div class="nav" style="width: 6%;">
-                <span class="material-symbols-outlined">
-                    package_2
-                </span>
-                <a href="#">Stok IT</a>
+            <div class=" nav" style="width: 6%;">
+                    <span class="material-symbols-outlined">
+                        package_2
+                    </span>
+                    <a href="../Stok IT/stokIT.html">Stok IT</a>
             </div>
             <div class="nav" style="width: 6%;">
                 <span class="material-symbols-outlined">
@@ -76,10 +76,11 @@
                 <span class="material-symbols-outlined">
                     table
                 </span>
-                <p>Out Logistik</p>
+                <p>Stok IT</p>
             </div>
-            <div class="btnLaporan">
-                <button>Detail Laporan Out</button>
+            <div class="btnStok">
+                <button id="btnIT">Stok IT</button>
+                <button id="btnLogistik">Stok Logistik</button>
             </div>
 
             <div class="cardContent">
@@ -102,12 +103,13 @@
                         <thead>
                             <tr>
                                 <th>No.</th>
-                                <th>Person On Demand</th>
-                                <th>User</th>
-                                <th>Qty</th>
-                                <th>Catatan</th>
-                                <th>Subtotal</th>
-                                <th>Tanggal</th>
+                                <th>Tipe Toner</th>
+                                <th>Tipe Printer</th>
+                                <th>Warna Toner</th>
+                                <th>Kategori</th>
+                                <th>Stock</th>
+                                <th>Harga Toner</th>
+                                <th>Tanggal Input</th>
                                 <th>Opsi</th>
                             </tr>
                         </thead>
@@ -119,10 +121,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span> Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span> Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -132,10 +139,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span> Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span> Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -145,10 +157,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span>Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span> Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -158,10 +175,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span> Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span>Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -171,10 +193,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span>Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span>Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -184,10 +211,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span> Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span> Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -197,10 +229,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span>Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span> Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -210,10 +247,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span> Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span>Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -223,10 +265,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span> Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span> Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -236,10 +283,15 @@
                                 <td>Qty</td>
                                 <td>Catatan</td>
                                 <td>Subtotal</td>
+                                <td>Subtotal</td>
                                 <td>Tanggal</td>
-                                <td><button> <span class="material-symbols-outlined">
-                                            visibility
-                                        </span> View</button>
+                                <td class="buttonCol">
+                                    <button id="btnEdit"> <span class="material-symbols-outlined">
+                                            edit
+                                        </span>Edit</button>
+                                    <button id="btnDelete"> <span class="material-symbols-outlined">
+                                            delete
+                                        </span>Delete</button>
                                 </td>
                             </tr>
                         </tbody>
