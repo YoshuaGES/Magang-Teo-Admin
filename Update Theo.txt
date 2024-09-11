@@ -1,0 +1,12 @@
+Login
+1. Footer -> ITInventory (warna biru Net khusus untuk tulisan ITnya)
+
+User
+1. Logo = Home
+
+Admin
+1. Profile = Home = Index
+2. Laporan In Logistik = Tabel punya modal
+
+ALL
+Keluar routing / ngarah ke Login
