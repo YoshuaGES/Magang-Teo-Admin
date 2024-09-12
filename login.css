@@ -59,15 +59,24 @@ body {
     margin-bottom: 20px;
 }
 
-.userIcon, .passwordIcon {
-    width: 25px;
+.icon {
+    background-color: rgb(231, 231, 232);
+    padding-left: 10px;
+    height: 38px;
+    border-radius: 5px 0 0 5px;
+    align-content: center;
+}
+
+span.material-symbols-outlined {
+    font-size: 1.5rem;
     margin-right: 10px;
 }
+
 
 input {
     flex: 1;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     border: 1px solid #ccc;
 }
 
