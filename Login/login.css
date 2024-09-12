@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(228, 228, 228);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.it {
+    color: black;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.inventory {
+    color: rgb(0, 154, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.username {
+    margin-bottom: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.userIcon, .passwordIcon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.but {
+    flex: 1;
+    margin: 0 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: red;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: rgb(153, 255, 0);
+}
+
+.btn2 {
+    background-color: blue;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: rgb(195, 255, 0);
+}
+
+.btn3 {
+    background-color: gray;
+    color: white;
+}
+
+.btn3:hover {
+    background-color: rgb(0, 187, 255);
+}
+
+.copy {
+    margin-top: 20px;
+    color: rgb(181, 181, 181);
+    text-align: center;
+}
+
+
+/* Tablet layout (width between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .card {
+        width: 50%;
+    }
+
+    .userIcon, .passwordIcon {
+        width: 20px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+/* Mobile layout (width between 480px and 767px) */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .it, .inventory {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+/* Small mobile layout (width below 480px) */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .it, .inventory {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    input {
+        padding: 6px;
+    }
+
+    button {
+        padding: 6px;
+    }
+
+    .btn {
+        flex-direction: column;
+    }
+
+    .but {
+        margin: 5px 0;
+    }
+}
