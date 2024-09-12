@@ -17,15 +17,14 @@ header {
     justify-content: center;
 }
 
-.navbar {
-    width: 80%;
-    height: 70px;
-    padding: 20px;
-    display: flex;
-}
-
 .logo {
     font-weight: 900;
+    margin-top: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
     display: flex;
     text-align: center;
     align-items: center;
@@ -36,8 +35,6 @@ header {
     width: 10%;
     padding: 10px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     border-right: solid 1px #757575;
     justify-content: center;
 }
@@ -47,6 +44,8 @@ header {
     color: #bbbbbb;
     font-size: 9px;
     font-weight: bolder;
+    display: flex;
+    flex-direction: column;
 }
 
 .card {

@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    border-bottom: solid 5px rgb(255 193 7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 80%;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+}
+
+
+.logo {
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.nav {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+    border-right: solid 1px #757575;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #bbbbbb;
+    font-size: 9px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .card {
+    border-radius: 5px;
+    border: 0.5px solid #dbdbdb;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .totalPrinter {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    gap: 10px;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .iconPrinter {
+    width: 25px;
+  }
+  
+  .information {
+    line-height: 5px;
+  }
+  
+  p {
+    color: #707070;
+    font-family: "Poppins";
+    font-size: 12px;
+  }
+
+  h1 {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+  
+  .h1 {
+    color: rgb(0, 132, 255);
+  }
+  
+  .copyright {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.copyright a {
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
