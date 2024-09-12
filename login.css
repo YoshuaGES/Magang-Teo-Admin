@@ -28,11 +28,11 @@ body {
     align-items: center;
 }
 
-.it {
+a {
     color: black;
-    font-family: 'Lucida Sans', sans-serif;
+    text-decoration: none;
     font-weight: bold;
-    margin-right: 5px;
+    cursor: text;
 }
 
 .inventory {
@@ -137,6 +137,7 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 132, 255);
     font-weight: 500;
+    cursor: pointer;
 }
 
 
