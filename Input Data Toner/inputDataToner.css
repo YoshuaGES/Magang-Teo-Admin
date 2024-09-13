@@ -18,11 +18,19 @@ body {
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 20%;
   gap: 5px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.logo p:hover {
+  color: white;
 }
 
 .iconInven {
@@ -34,7 +42,7 @@ body {
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 600;
-  color: white;
+  color: #b3b3b3;
 }
 
 .laporan1 {
@@ -45,13 +53,13 @@ body {
 
 .report {
   text-decoration: none;
-  color: #b3b3b3;
 }
 
 .laporan {
   color: #b3b3b3;
-  font-size: 11px;
+  font-size: 10px;
   font-family: "Poppins";
+  font-weight: 600;
 }
 
 .laporan:hover {
