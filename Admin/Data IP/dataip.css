@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+  height: 100vh;
   background-color: white;
 }
 
@@ -144,6 +145,10 @@ a:hover {
   background-color: #00356e;
 }
 
+.pagination {
+  margin: 20px;
+}
+
 .childCard1 img {
   width: 25px;
 }
@@ -173,7 +178,6 @@ table {
   border: none;
   cursor: pointer;
   background-color: white;
-  align-items: center;
 }
 
 .btnArrow:hover {
@@ -200,24 +204,31 @@ td {
 }
 
 .edit-btn {
+  margin-left: 10px;
   background-color: #0067d4;
   color: white;
   border-radius: 5px;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-
-.edit-btn img {
-  width: 15px;
 }
 
 .edit-btn:hover {
   background-color: #0056b3;
+}
+
+.dlt-btn {
+  margin-left: 5px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dlt-btn:hover {
+  background-color: #b30600;
 }
 
 .pagination-container {
@@ -246,7 +257,7 @@ td {
 
 #prev {
   font-weight: 600;
-  color: gray;
+  color: rgb(255, 255, 255);
   font-family: "Poppins";
 }
 
@@ -262,7 +273,6 @@ td {
 
 .page {
   color: #007bff;
-  border-radius: 0px;
 }
 
 .p-footer {
@@ -282,3 +292,4 @@ footer .company-name {
   color: #007bff;
   font-weight: bold;
 }
+

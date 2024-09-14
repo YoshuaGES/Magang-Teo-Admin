@@ -145,10 +145,6 @@ a:hover {
   background-color: #00356e;
 }
 
-.pagination {
-  margin: 20px;
-}
-
 .childCard1 img {
   width: 25px;
 }
@@ -204,16 +200,13 @@ td {
 }
 
 .edit-btn {
+  margin-left: 10px;
   background-color: #0067d4;
   color: white;
   border-radius: 5px;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
 }
 
 .edit-btn img {
@@ -250,7 +243,7 @@ td {
 
 #prev {
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  color: gray;
   font-family: "Poppins";
 }
 
@@ -266,6 +259,7 @@ td {
 
 .page {
   color: #007bff;
+  border-radius: 0px;
 }
 
 .p-footer {
