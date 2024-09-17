@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     row.insertCell(5).innerHTML = ""; 
     row.insertCell(6).innerHTML = ""; 
     row.insertCell(7).innerHTML = "";   
-    row.insertCell(8).innerHTML = "";   
 
     // Create the Opsi cell and add buttons
     const cellOpsi = row.insertCell(8);
