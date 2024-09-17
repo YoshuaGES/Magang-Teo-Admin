@@ -255,9 +255,23 @@ td {
   background-color: #f0f0f0;
 }
 
+.pagination-btn-stok {
+  background-color: rgb(0, 110, 255);
+  border: 1px solid rgb(224, 224, 224);
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.pagination-btn-stok:hover {
+  background-color: #00356e;
+}
+
 #prev {
   font-weight: 600;
-  color: rgb(128, 128, 128);
+  color: rgb(122, 122, 122);
   font-family: "Poppins";
 }
 
