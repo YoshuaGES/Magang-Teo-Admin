@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="stokToner.js"></script>
   </head>
   <body>
     <div class="container">
@@ -70,6 +71,149 @@
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="childCard1">
+          <div class="cardLogo">
+            <img src="/Admin/Assets/IkonTable.png" alt="IkonTable" />
+            <p>Stok IT</p>
+          </div>
+          <div class="cardNewButton">
+            <button type="submit" id="tambah">+ Tambah Produk</button>
+          </div>
+        </div>
+        <div class="pagination">
+          <button class="pagination-btn page active" id="prev">Stock IT</button>
+          <button class="pagination-btn">Stock Logistik</button>
+        </div>
+        <div class="table-controls">
+          <div class="input">
+            <label for="entries">Show</label>
+            <select id="entries">
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+            </select>
+          </div>
+          <div class="input">
+            <label for="search">Cari:</label>
+            <input type="text" id="search" />
+          </div>
+        </div>
+        <div class="table">
+          <table id="tabel">
+            <thead>
+              <tr>
+                <th class="th-table">
+                  No.
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Tipe Toner
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Tipe Printer
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Warna Toner
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Kategori
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Stock
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Harga Toner
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Tanggal Input
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+                <th class="th-table">
+                  Opsi
+                  <button class="btnArrow">
+                    <img
+                      src="/Admin/Assets/IconUpAndDown (Arrow).png"
+                      alt=""
+                      class="iconArrow"
+                    />
+                  </button>
+                </th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div class="pagination-container">
+            <button class="pagination-btn" id="prev">Previous</button>
+            <button class="pagination-btn page active">1</button>
+            <button class="pagination-btn page">2</button>
+            <button class="pagination-btn page">3</button>
+            <button class="pagination-btn page">4</button>
+            <button class="pagination-btn" id="next">Next</button>
+          </div>
+          <p class="p-footer">Showing 1 to 10 of 40 entries</p>
+        </div>
+      </div>
+      <footer>
+        <p>
+          Copyright © 2023 <span class="company-name">IT NET</span>. All Rights
+          Reserved
+        </p>
+      </footer>
     </div>
   </body>
 </html>
