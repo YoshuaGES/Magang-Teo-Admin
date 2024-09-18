@@ -107,7 +107,8 @@ a:hover {
 
 .content {
   padding: 20px;
-  margin: 10px;
+  margin-left: 75px;
+  margin-Right: 75px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
