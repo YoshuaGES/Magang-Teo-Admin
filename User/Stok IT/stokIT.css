@@ -155,6 +155,7 @@ td {
     height: 25px;
     border-radius: 5px;
     cursor: pointer;
+    width: 60px;
 }
 
 #btnDelete {
@@ -165,6 +166,7 @@ td {
     height: 25px;
     border-radius: 5px;
     cursor: pointer;
+    width: 70px;
 }
 
 #btnEdit:hover {
@@ -239,4 +241,11 @@ button span.material-symbols-outlined {
     text-decoration: none;
     color: rgb(0, 132, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td.buttonCol {
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
 }
