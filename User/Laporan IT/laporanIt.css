@@ -95,12 +95,10 @@ header {
 
 .card p {
     color: #707070;
-    font-family: "Poppins";
     font-size: 12px;
 }
 
 h1 {
-    font-family: "Poppins";
     font-size: 1rem;
 }
 
@@ -195,7 +193,8 @@ tr:hover {
     background-color: white;
     color: #333;
     font-size: 13px;
-    text-decoration: none;;
+    text-decoration: none;
+    ;
     align-items: center;
 }
 
@@ -229,14 +228,20 @@ tr:hover {
 }
 
 .cardImg {
-    background-image: linear-gradient(to right, #454a4f , #737c85);
+    background-image: linear-gradient(to right, #454a4f, #737c85);
     width: 40px;
     height: 40px;
     text-align: center;
     border-radius: 5px;
-  }
-  
-  .cardImg span {
+}
+
+.cardImg span {
     margin-top: 7px;
     color: white;
-  }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        width: 100%;
+    }
+}

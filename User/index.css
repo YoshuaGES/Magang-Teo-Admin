@@ -134,3 +134,9 @@ h1 {
   margin-top: 7px;
   color: white;
 }
+
+@media (max-width: 1024px) {
+  .card {
+      width: 100%;
+  }
+}
