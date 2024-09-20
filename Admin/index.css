@@ -231,3 +231,46 @@ footer .company-name {
     font-size: 1.2rem;
   }
 }
+
+/* Existing CSS remains unchanged */
+
+@media (max-width: 1280px){
+  .navbar {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .laporan1 {
+    width: 20%;
+  }
+
+  .nav {
+    gap: 20px;
+  }
+
+  .content {
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
