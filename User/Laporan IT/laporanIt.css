@@ -244,4 +244,31 @@ tr:hover {
     .card {
         width: 100%;
     }
-}
+  
+    .totalPrinter {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .content {
+      width: 80%;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+    .information p {
+      font-size: 10px;
+    }
+  
+    .information h1 {
+      font-size: 12px;
+    }
+  
+    .cardImg {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .cardImg span {
+      font-size: 15px;
+    }
+  }
