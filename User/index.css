@@ -90,7 +90,7 @@ header {
 }
 
 .information {
-  line-height: 5px;
+  line-height: 1;
 }
 
 p {
@@ -101,7 +101,7 @@ p {
 
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .h1 {
